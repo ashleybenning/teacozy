@@ -1,0 +1,156 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+.centerthisdangit {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+h2 {
+  font-family: Helvetica;
+  font-size: 48px;
+  color: seashell;
+  opacity: .9;
+  text-align: center;
+}
+
+h3 {
+  font-family: Helvetica;
+  font-size: 40px;
+  color: seashell;
+  opacity: 1;
+  }
+
+h4 {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: .9;
+  text-align: center;
+  font-weight: bold;
+}
+
+h5 {
+  font-family: Helvetica;
+  font-size: 20px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  position: fixed;
+  width: 95%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  text-align: right;
+  justify-content: center;
+  padding: 15px;
+}
+
+
+header nav a{
+  color: seashell;
+  text-decoration: underline;
+}
+
+
+.logo {
+  height: 100px;
+  padding-left: 10px;
+  position: absolute;
+}
+
+#mission {
+  background-image: url("images/img-mission-background.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  opacity: inherit;
+  width: 1200px;
+  height: 700px;
+  margin-top: 100px;
+}
+.missiontext {
+  background-color: black;
+  }
+
+#teaofthemonth {
+}
+
+.teaofthemonthimages {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  justify-content: center;
+
+
+}
+
+.itemimages {
+  margin: 10px;
+}
+
+.image-caption {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    opacity: .9;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+
+}
+
+#locations {
+  background-image: url("images/img-locations-background.jpg");
+  display: flex;
+  flex-direction: column;
+  opacity: inherit;
+  width: 1200px;
+  height: 600px;
+  justify-content: center;
+}
+
+.locationsheader {
+  font-family: Helvetica;
+  font-size: 48px;
+  color: seashell;
+  opacity: .9;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.locationblocks {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+.locationinfo {
+  width: 300px;
+  background-color: black;
+  height: 300px;
+  margin: 20px;
+}
+
+.locationinfo p{
+  line-height: 2;
+}
+
+.copyright {
+  text-align: left;
+  margin-left: 20px;
+}
